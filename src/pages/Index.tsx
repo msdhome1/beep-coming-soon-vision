@@ -26,7 +26,7 @@ const Index = () => {
       <div className="absolute inset-0 z-0">
         {/* Replace the src with your .mov file path */}
         <video autoPlay loop muted playsInline className="w-full h-full object-cover opacity-40">
-          <source src="/path-to-your-video.mov" type="video/mp4" />
+          <source src="/lovable-uploads/doughertym_httpss.mj.runwPLTvCR1kTY_a_large_styrofoam_pop-art_668e0202-c0e1-477b-9201-bc331c77843c_2.gif" type="video/mp4" />
           {/* Fallback gradient if video doesn't load */}
           <div className="w-full h-full bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900" />
         </video>
