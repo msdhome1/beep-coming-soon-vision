@@ -42,7 +42,9 @@ const Index = () => {
         {/* Coming Soon Text */}
         <div className="mb-12 space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight lg:text-4xl">agentic payments</h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto" style={{color: '#30b0fcff'}}>
+          <p className="text-lg md:text-xl max-w-2xl mx-auto" style={{
+          color: '#30b0fcff'
+        }}>
             beep beep
           </p>
         </div>
@@ -52,7 +54,9 @@ const Index = () => {
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="flex flex-col sm:flex-row gap-3">
               <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} className="flex-1 border-yellow-400 border-2 text-white !placeholder-white focus:border-yellow-300 backdrop-blur-sm bg-transparent" required />
-              <Button type="submit" disabled={isSubmitting} className="text-white font-medium px-8 py-2 transition-colors" style={{backgroundColor: '#ce2af1ff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b525d9'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#ce2af1ff'}>
+              <Button type="submit" disabled={isSubmitting} className="text-white font-medium px-8 py-2 transition-colors" style={{
+              backgroundColor: '#ce2af1ff'
+            }} onMouseEnter={e => e.currentTarget.style.backgroundColor = '#b525d9'} onMouseLeave={e => e.currentTarget.style.backgroundColor = '#ce2af1ff'}>
                 {isSubmitting ? 'Joining...' : 'Join Waitlist'}
               </Button>
             </div>
@@ -61,9 +65,7 @@ const Index = () => {
 
         {/* Social Proof / Additional Info */}
         <div className="mt-16 text-center">
-          <p className="text-sm text-gray-500">
-            Join thousands of others waiting for launch
-          </p>
+          <p className="text-sm text-gray-500">Join thousands of vibe coders today</p>
         </div>
       </div>
 
