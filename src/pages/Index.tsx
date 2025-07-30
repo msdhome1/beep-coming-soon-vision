@@ -24,12 +24,14 @@ const Index = () => {
   return <div className="min-h-screen relative overflow-hidden bg-black">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        {/* Replace the src with your .mov file path */}
-        <video autoPlay loop muted playsInline className="w-full h-full object-cover opacity-40">
-          <source src="/lovable-uploads/doughertym_httpss.mj.runwPLTvCR1kTY_a_large_styrofoam_pop-art_668e0202-c0e1-477b-9201-bc331c77843c_2.gif" type="video/mp4" />
-          {/* Fallback gradient if video doesn't load */}
-          <div className="w-full h-full bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900" />
-        </video>
+        {/* GIF Background */}
+        <img 
+          src="/lovable-uploads/doughertym_httpss.mj.runwPLTvCR1kTY_a_large_styrofoam_pop-art_668e0202-c0e1-477b-9201-bc331c77843c_2.gif" 
+          alt="Pop-art background animation"
+          className="w-full h-full object-cover opacity-40"
+        />
+        {/* Fallback gradient if GIF doesn't load */}
+        <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 -z-10" />
       </div>
 
       {/* Content Overlay */}
