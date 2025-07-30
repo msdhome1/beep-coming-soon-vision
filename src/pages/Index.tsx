@@ -48,7 +48,7 @@ const Index = () => {
         {/* Logo */}
         <div className="mb-8 animate-pulse">
           <img 
-            src="figma:asset/18fd225793878456a38181d840b09a1277cbba6c.png"
+            src="/lovable-uploads/fc57d4ab-8146-43be-8a91-e5c01a93601b.png"
             alt="Beep" 
             className="h-16 md:h-24 w-auto"
           />
