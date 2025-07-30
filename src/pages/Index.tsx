@@ -43,7 +43,7 @@ const Index = () => {
         <div className="mb-12 space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight lg:text-4xl">agentic payments</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto" style={{
-          color: '#30b0fcff'
+          color: '#75ff6dff'
         }}>
             beep beep
           </p>
