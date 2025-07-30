@@ -42,7 +42,7 @@ const Index = () => {
         {/* Coming Soon Text */}
         <div className="mb-12 space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight lg:text-4xl">agentic payments</h1>
-          <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl max-w-2xl mx-auto" style={{color: '#30b0fcff'}}>
             beep beep
           </p>
         </div>
