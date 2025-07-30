@@ -51,7 +51,7 @@ const Index = () => {
         <div className="w-full max-w-md space-y-6">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="flex flex-col sm:flex-row gap-3">
-              <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} className="flex-1 border-white/20 text-white placeholder-white/70 focus:border-white/40 backdrop-blur-sm" style={{backgroundColor: '#ffe102'}} required />
+              <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} className="flex-1 border-white/20 text-white placeholder-white focus:border-white/40 backdrop-blur-sm" style={{backgroundColor: '#ffe102'}} required />
               <Button type="submit" disabled={isSubmitting} className="text-white font-medium px-8 py-2 transition-colors" style={{backgroundColor: '#ce2af1ff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b525d9'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#ce2af1ff'}>
                 {isSubmitting ? 'Joining...' : 'Join Waitlist'}
               </Button>
