@@ -33,7 +33,7 @@ const Index = () => {
       </div>
 
       {/* Content Overlay */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-center animate-pulse">
         {/* Logo */}
         <div className="mb-8 animate-pulse">
           <img src="/lovable-uploads/fc57d4ab-8146-43be-8a91-e5c01a93601b.png" alt="Beep" className="h-16 md:h-24 w-auto" />
