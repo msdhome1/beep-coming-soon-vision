@@ -25,9 +25,12 @@ const Index = () => {
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         {/* GIF Background */}
-        <img 
-          src="/lovable-uploads/doughertym_httpss.mj.runwPLTvCR1kTY_a_large_styrofoam_pop-art_668e0202-c0e1-477b-9201-bc331c77843c_2.gif" 
-          alt="Pop-art background animation"
+        <video 
+          src="/lovable-uploads/doughertym_httpss.mj.runwPLTvCR1kTY_a_large_styrofoam_pop-art_668e0202-c0e1-477b-9201-bc331c77843c_2.mp4" 
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover opacity-40"
         />
         {/* Fallback gradient if GIF doesn't load */}
