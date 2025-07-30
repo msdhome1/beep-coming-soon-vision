@@ -21,7 +21,7 @@ const Index = () => {
       setIsSubmitting(false);
     }
   };
-  return <div className="min-h-screen relative overflow-hidden bg-black">
+  return <div className="min-h-screen relative overflow-hidden bg-black font-ibm-plex-sans">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         {/* GIF Background */}
