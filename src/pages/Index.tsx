@@ -52,7 +52,7 @@ const Index = () => {
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="flex flex-col sm:flex-row gap-3">
               <Input type="email" placeholder="Enter your email" value={email} onChange={e => setEmail(e.target.value)} className="flex-1 bg-white/10 border-white/20 text-white placeholder-gray-400 focus:border-white/40 focus:bg-white/20 backdrop-blur-sm" required />
-              <Button type="submit" disabled={isSubmitting} className="bg-white text-black hover:bg-gray-200 font-medium px-8 py-2 transition-colors">
+              <Button type="submit" disabled={isSubmitting} className="text-white font-medium px-8 py-2 transition-colors" style={{backgroundColor: '#ce2af1ff'}} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#b525d9'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#ce2af1ff'}>
                 {isSubmitting ? 'Joining...' : 'Join Waitlist'}
               </Button>
             </div>
